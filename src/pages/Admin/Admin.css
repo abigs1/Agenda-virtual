@@ -1,0 +1,154 @@
+.page {
+  padding: 16px;
+}
+
+.header {
+  font-size: 22px;
+  margin-bottom: 12px;
+}
+
+.tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.tabs button {
+  flex: 1;
+  padding: 8px;
+  border: none;
+  background: #eee;
+  border-radius: 6px;
+}
+
+.tabs .active {
+  background: #000;
+  color: #fff;
+}
+
+.week-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.week-center {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.month {
+  text-transform: capitalize;
+}
+
+.today {
+  border: none;
+  background: #f5f5f5;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+
+.week-calendar {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.week-day {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.day-header {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.event {
+  padding: 6px;
+  border-radius: 6px;
+  margin-bottom: 4px;
+  cursor: pointer;
+}
+
+.beige {
+  background: #f1e6d8;
+}
+
+.black {
+  background: #000;
+  color: #fff;
+}
+
+.add-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  font-size: 26px;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  border: none;
+  background: black;
+  color: white;
+}
+
+.calendar-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+  gap: 3px;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+}
+
+.day-events .event {
+  margin-bottom: 6px;
+}
+
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: white;
+  padding: 16px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 360px;
+}
+
+.modal input {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blank {
+  text-align: center;
+  padding: 40px;
+  color: #777;
+}
